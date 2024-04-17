@@ -1,0 +1,78 @@
+body {
+  width: 960px;
+  background-color: lightyellow;
+}
+
+#conteudo {
+  display: flex;
+}
+#header {
+  background-color: darkred;
+  display: flex;
+}
+
+#brasao {
+  margin-top: 10px;
+  margin-left: 15px;
+  size: 64px;
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+  margin-left: 35px;
+}
+
+#nav {
+  width: 200px;
+  color: aliceblue;
+}
+
+li {
+  margin-left: -40px;
+  width: 200px;
+  padding: 10px;
+  background-color: darkgreen;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: lightyellow;
+  float: left;
+}
+li:hover {
+  background-color: darkslategray;
+}
+
+a {
+  padding: 10px;
+  color: lightyellow;
+}
+
+#principal {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 420px;
+  text-align: justify;
+}
+
+#lateral {
+  width: 300px;
+  float: right;
+}
+h3 {
+  size: 16px;
+}
+.main {
+  margin: 0px 20px;
+}
+
+#footer {
+  background-color: darkred;
+  height: 72px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+h5 {
+  color: lightyellow;
+}
